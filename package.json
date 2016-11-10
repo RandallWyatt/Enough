@@ -1,0 +1,20 @@
+{
+  "name": "node_assignment",
+  "version": "1.0.0",
+  "description": "water application",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart":"npm install",
+    "start": "http-server -a 0.0.0.0 -p 8000"
+  },
+  "dependancies":{
+    "http-server": "^0.8.5"
+  },
+  "keywords": [
+    "water",
+    "application"
+  ],
+  "author": "",
+  "license": "ISC"
+}
